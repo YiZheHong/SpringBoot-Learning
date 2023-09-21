@@ -1,0 +1,19 @@
+###
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+
+{
+  "name": "Momi",
+  "email": "Momi@eud",
+  "dob": "2001-02-16"
+}
+
+<> 2023-09-20T170953.500.json
+<> 2023-09-20T170814.500.json
+###
+DELETE http://localhost:8080/api/v1/student/1
+
+<> 2023-09-20T172625.500.json
+
+###
+PUT http://localhost:8080/api/v1/student/1?name=LLL
